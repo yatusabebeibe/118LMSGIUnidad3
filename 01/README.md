@@ -1,4 +1,4 @@
-# Ejemplo 1.- Acceso y mofificación de elementos del DOM 
+# Ejemplo 1.- Acceso y modificación de elementos del DOM 
 
 >  Crea un script que mofique el contenido:
 
