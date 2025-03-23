@@ -2,7 +2,7 @@
 Unidad 3 Manipulación de documentos web
 
 ## TEORÍA
-## Seleccionar elementos en el DOM
+### Seleccionar elementos en el DOM
 1. Método tradicional
 
 | **Método de Búsqueda**              | **Descripción**                                   | **Si no lo encuentra...**              |
@@ -19,6 +19,28 @@ Unidad 3 Manipulación de documentos web
 | `.querySelector(sel)`        | Busca el **primer** elemento que coincide con el selector CSS `sel`. | Devuelve `null`.          |
 | `.querySelectorAll(sel)`     | Busca **todos** los elementos que coinciden con el selector CSS `sel`. | Devuelve `[]`.            |
 
+3. Buscar elementos desde otros
+
+
+| Métodos              | Descripción                                                      | Si no lo encuentra |
+|----------------------|------------------------------------------------------------------|--------------------|
+|**ELEMENT** .matches(sel) | Comprueba si un elemento coincide con una selección CSS         | false            |
+|**ELEMENT** .closest(sel)`| Devuelve el primer elemento más cercano que coincide con el selector | NULL         |
+
+
+4. Navegar entre los nodos
+   
+
+| Propiedad de nodos HTML | Descripción                                                    | Si está vacío |
+|-------------------------|----------------------------------------------------------------|----------------|
+| **ARRAY** .childNodes   | Devuelve una lista de nodos hijos (incluye nodos de texto y comentarios). | *NULL*        |
+| **NODE**.parentNode     | Devuelve el nodo padre del nodo                                | *NULL*         |
+| **NODE**.firstChild     | Devuelve el primer nodo hijo                                   | *NULL*         |
+| **NODE**.lastChild      | Devuelve el último nodo hijo                                   | *NULL*         |
+| **NODE**.previousSibling| Devuelve el nodo hermano anterior                              | *NULL*         |
+| **NODE**.nextSibling    | Devuelve el nodo hermano siguiente                             | *NULL*         |
+
+ 
 
 ### Modificar el contenido DOM
 
