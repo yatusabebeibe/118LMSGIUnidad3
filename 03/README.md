@@ -1,12 +1,8 @@
 # Ejemplo 3 Acceso a elementos
-
-Sin script:
-
+Sin Script:
 ![image](https://github.com/user-attachments/assets/5dbe10d5-ff02-40f1-8ea3-5825d90084c5)
-
 Con Script
 ![image](https://github.com/user-attachments/assets/4db99e35-173b-4946-aa6e-ac5994cf4cd7)
-
  > Mediane un script escribe en consola los siguientes datos, teniendo en cuenta que primero hay que seleccionar y luego escribir el valor con console.log()
 > 
 
