@@ -24,6 +24,7 @@ for (let i = 0; i < parrafo.length; i++) {
     parrafo[i].style.borderLeft="5px solid"
     parrafo[i].style.borderRadius="5px"
     parrafo[i].style.lineHeight="1.6"
+    parrafo[i].style.margin="18px auto"
 }
 
 parrafo[0].style.color="#e74c3c"
