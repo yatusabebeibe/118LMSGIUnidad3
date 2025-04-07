@@ -1,0 +1,11 @@
+#contenedor {
+    min-height: 20px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+#contenedor p {
+    margin: 8px;
+}
